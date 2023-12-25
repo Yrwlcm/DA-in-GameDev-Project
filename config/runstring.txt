@@ -1,0 +1,2 @@
+mlagents-learn config/avoidagent_config.yaml --run-id=AvoiderWithWalls --force
+mlagents-learn config/catchagent_config.yaml --run-id=CatcherWithWalls --force

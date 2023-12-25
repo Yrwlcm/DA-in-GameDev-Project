@@ -1,0 +1,47 @@
+{
+    "AvoidAgent": {
+        "checkpoints": [
+            {
+                "steps": 499970,
+                "file_path": "results\\Avoider2\\AvoidAgent\\AvoidAgent-499970.onnx",
+                "reward": -4.041468388851122,
+                "creation_time": 1703248106.7523987,
+                "auxillary_file_paths": [
+                    "results\\Avoider2\\AvoidAgent\\AvoidAgent-499970.pt"
+                ]
+            },
+            {
+                "steps": 999955,
+                "file_path": "results\\Avoider2\\AvoidAgent\\AvoidAgent-999955.onnx",
+                "reward": 4.603580562659847,
+                "creation_time": 1703249260.0378048,
+                "auxillary_file_paths": [
+                    "results\\Avoider2\\AvoidAgent\\AvoidAgent-999955.pt"
+                ]
+            },
+            {
+                "steps": 1480046,
+                "file_path": "results\\Avoider2\\AvoidAgent\\AvoidAgent-1480046.onnx",
+                "reward": 4.854932301740813,
+                "creation_time": 1703250540.5762467,
+                "auxillary_file_paths": [
+                    "results\\Avoider2\\AvoidAgent\\AvoidAgent-1480046.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1480046,
+            "file_path": "results\\Avoider2\\AvoidAgent.onnx",
+            "reward": 4.854932301740813,
+            "creation_time": 1703250540.5762467,
+            "auxillary_file_paths": [
+                "results\\Avoider2\\AvoidAgent\\AvoidAgent-1480046.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0.dev0",
+        "torch_version": "2.1.1+cpu"
+    }
+}

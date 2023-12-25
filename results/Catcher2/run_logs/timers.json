@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1703237091",
+        "python_version": "3.10.12 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 19:01:18) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "\\\\?\\C:\\Users\\user\\anaconda3\\envs\\mlagents21\\Scripts\\mlagents-learn config/catchagent_config.yaml --run-id=Catcher2 --force",
+        "mlagents_version": "1.1.0.dev0",
+        "mlagents_envs_version": "1.1.0.dev0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.1.1+cpu",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1703237155"
+    },
+    "total": 64.06386739999971,
+    "count": 1,
+    "self": 0.009294499999668915,
+    "children": {
+        "run_training.setup": {
+            "total": 0.15492919999996957,
+            "count": 1,
+            "self": 0.15492919999996957
+        },
+        "TrainerController.start_learning": {
+            "total": 63.89964370000007,
+            "count": 1,
+            "self": 0.0001449999999749707,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 63.89947690000008,
+                    "count": 1,
+                    "self": 63.89947690000008
+                },
+                "TrainerController._save_models": {
+                    "total": 2.1800000013172394e-05,
+                    "count": 1,
+                    "self": 2.1800000013172394e-05
+                }
+            }
+        }
+    }
+}

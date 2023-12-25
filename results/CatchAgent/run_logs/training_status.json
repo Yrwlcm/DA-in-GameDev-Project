@@ -1,0 +1,65 @@
+{
+    "CatchAgent": {
+        "checkpoints": [
+            {
+                "steps": 8499989,
+                "file_path": "results\\CatchAgent\\CatchAgent\\CatchAgent-8499989.onnx",
+                "reward": 13.868215262204751,
+                "creation_time": 1701161923.1246974,
+                "auxillary_file_paths": [
+                    "results\\CatchAgent\\CatchAgent\\CatchAgent-8499989.pt"
+                ]
+            },
+            {
+                "steps": 8999988,
+                "file_path": "results\\CatchAgent\\CatchAgent\\CatchAgent-8999988.onnx",
+                "reward": 14.480534766849718,
+                "creation_time": 1701162493.9436486,
+                "auxillary_file_paths": [
+                    "results\\CatchAgent\\CatchAgent\\CatchAgent-8999988.pt"
+                ]
+            },
+            {
+                "steps": 9499966,
+                "file_path": "results\\CatchAgent\\CatchAgent\\CatchAgent-9499966.onnx",
+                "reward": 14.73886816109283,
+                "creation_time": 1701163001.3528426,
+                "auxillary_file_paths": [
+                    "results\\CatchAgent\\CatchAgent\\CatchAgent-9499966.pt"
+                ]
+            },
+            {
+                "steps": 9999971,
+                "file_path": "results\\CatchAgent\\CatchAgent\\CatchAgent-9999971.onnx",
+                "reward": 14.889006132045678,
+                "creation_time": 1701163498.7858975,
+                "auxillary_file_paths": [
+                    "results\\CatchAgent\\CatchAgent\\CatchAgent-9999971.pt"
+                ]
+            },
+            {
+                "steps": 10000017,
+                "file_path": "results\\CatchAgent\\CatchAgent\\CatchAgent-10000017.onnx",
+                "reward": 14.885318962118244,
+                "creation_time": 1701163498.8338997,
+                "auxillary_file_paths": [
+                    "results\\CatchAgent\\CatchAgent\\CatchAgent-10000017.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 10000017,
+            "file_path": "results\\CatchAgent\\CatchAgent.onnx",
+            "reward": 14.885318962118244,
+            "creation_time": 1701163498.8338997,
+            "auxillary_file_paths": [
+                "results\\CatchAgent\\CatchAgent\\CatchAgent-10000017.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0.dev0",
+        "torch_version": "2.1.1+cpu"
+    }
+}
